@@ -16,7 +16,11 @@ print(abs(10 + -13))
 
 # len - founds the length of word
 # pow - vozvodit v stepen :3
-# round - round's the number 
+# round - round's the number
+
+number = 10.1234
+motto = 'Family, Duty, Honor'
+first_name = '  Grigor   \n '
 
 company1 = "Apple"
 company2 = "Samsung"
@@ -26,6 +30,11 @@ company2_length = len(company2)
 
 print(company1_length + company2_length)
 print(pow(company1_length, company2_length))
-
 print(round(15.52, 1))
+
+print(hex(round(number)))
+print(type(motto))
+
+print(first_name.strip())
+
 # END
