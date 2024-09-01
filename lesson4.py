@@ -39,4 +39,25 @@ get_hidden_card(1234123412341234, 3)
 get_hidden_card(1234123412341545)
 
 
+def trim_and_repeat(text, offset=0, repetitions=1):
+    new_text = text[offset:len(text)] * repetitions
+    return new_text
+
+
+trim_and_repeat('asdasd', 5, 2)
+
+
+def letter_multiply(text: str, letter: str, count: int) -> str:
+    new_text = text.replace(letter, letter*count)
+    return new_text
+
+
+print(letter_multiply('python', 'n', 4))
+
+
+def get_age_difference(lil: int, big: int) -> int:
+    return f'The age difference is {abs(big - lil)}'
+
+
+print(get_age_difference(2011, 2014))
 # END
